@@ -1,0 +1,25 @@
+#selectModel {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	align-items: center;
+	width: 20%;
+	height: 100%;
+}
+
+.model {
+    width: 40%;
+    height: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: whitesmoke;
+    border-radius: 50%;
+    /* font-size: large; */
+}
+
+.model:hover {
+    box-shadow: 0px 0px 15px #888;
+    background-color: rgb(0,0,155);
+    color: white;
+}

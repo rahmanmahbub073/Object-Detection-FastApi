@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Object Detection</title>
+    <link rel="shortcut icon" href="/static/img/favicon.ico">
+    <style>
+        @import url("static/css/index.css");
+        @import url("static/css/checkbox.css");
+    </style>
+</head>
+<body>
+    <main>
+        <div id="uploadVideo">
+            <div id="show">
+                <canvas id="canvasBuf"></canvas>
+                <canvas id="canvas"></canvas>
+                <video id="video" type="video/mp4"></video>
+            </div>
+            <input id="selectVideo" type="file">
+        </div>
+        <div class="control">
+            <div id="selectVideoButton">
+                Upload
+            </div>
+            <section id="selectModel">
+                <div class="checkbox">
+                    <span>Detect</span>
+                    <input id="pron" type="checkbox"/>
+                    <label></label>
+                </div>
+            </section> 
+        </div>
+    </main>
+    <script src="static/js/index.js"></script>
+</body>
+</html>
