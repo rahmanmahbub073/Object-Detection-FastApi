@@ -1,8 +1,13 @@
+# ObjectDetectionFastApi
+Download the Repo and Extract it
 # Install
 
 ```shell
 python -m venv env
-pip install -r requirements.txt -i 
+cd /env/Scripts
+activate env
+back to root directory "server" {cd ../} one step back
+pip install -r requirements.txt -i https://mirrors.aliyun.com/pypi/simple/
 ```
 
 # RUN
